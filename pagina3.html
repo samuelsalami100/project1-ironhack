@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Películas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Página 3: Formulario -->
+    <div id="pagina3">
+        <h1>Formulario de Películas</h1>
+        <form action="submit.php" method="post">
+            <label for="titulo">Título de la Película:</label><br>
+            <input type="text" id="titulo" name="titulo"><br>
+            <label for="anio">Año de Estreno:</label><br>
+            <input type="number" id="anio" name="anio" min="1980" max="2021"><br>
+            <label for="genero">Género:</label><br>
+            <input type="text" id="genero" name="genero"><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <a href="index.html">Volver a la página de Inicio</a>
+        <a href="pagina2.html">Volver al Listado de Películas</a>
+    </div>
+</body>
+</html>
